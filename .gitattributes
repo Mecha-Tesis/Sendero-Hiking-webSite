@@ -1,0 +1,14 @@
+# Normaliza los finales de línea: se guardan como LF en el repo y Git los
+# convierte al formato local al hacer checkout. Evita diffs completos cuando el
+# proyecto se clona en Windows y en macOS/Linux.
+* text=auto eol=lf
+
+# Binarios: no tocar.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.woff binary
+*.woff2 binary
